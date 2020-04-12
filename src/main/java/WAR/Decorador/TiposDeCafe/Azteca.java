@@ -19,7 +19,7 @@ public class Azteca extends DecoradorCafe{
 
     @Override
     public String getDescripcion() {
-        return "Cafe Helado con una bola de Helado de Cholate";
+        return "Cafe Helado con una bola\n de Helado de Cholate";
     }
 
     @Override

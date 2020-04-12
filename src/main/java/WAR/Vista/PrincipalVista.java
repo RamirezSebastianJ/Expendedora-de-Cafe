@@ -10,6 +10,7 @@ import java.awt.Image;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JPanel;
+import javax.swing.SwingConstants;
 
 /**
  *
@@ -69,6 +70,10 @@ public class PrincipalVista extends javax.swing.JFrame {
         jPanel1.setOpaque(false);
 
         jButton1.setIcon( new ImageIcon("img/Espreso.png")); // NOI18N
+        jButton1.setFont(new java.awt.Font("Tahoma", 0, 1)); // NOI18N
+        jButton1.setText("1");
+        jButton2.setHorizontalTextPosition(SwingConstants.CENTER);
+        jButton2.setVerticalTextPosition(SwingConstants.BOTTOM );
         jButton1.setAlignmentY(0.0F);
         jButton1.setFocusPainted(false);
         /*
@@ -81,6 +86,10 @@ public class PrincipalVista extends javax.swing.JFrame {
         });
 
         jButton4.setIcon( new ImageIcon("img/Americano.png")); // NOI18N
+        jButton4.setFont(new java.awt.Font("Tahoma", 0, 1)); // NOI18N
+        jButton4.setText("4");
+        jButton2.setHorizontalTextPosition(SwingConstants.CENTER);
+        jButton2.setVerticalTextPosition(SwingConstants.BOTTOM );
         jButton4.setAlignmentY(0.0F);
         jButton4.setBorderPainted(false);
         jButton4.addActionListener(new java.awt.event.ActionListener() {
@@ -90,6 +99,10 @@ public class PrincipalVista extends javax.swing.JFrame {
         });
 
         jButton2.setIcon( new ImageIcon("img/Ristretto.png")); // NOI18N
+        jButton2.setFont(new java.awt.Font("Tahoma", 0, 1)); // NOI18N
+        jButton2.setText("2");
+        jButton2.setHorizontalTextPosition(SwingConstants.CENTER);
+        jButton2.setVerticalTextPosition(SwingConstants.BOTTOM );
         jButton2.setAlignmentY(0.0F);
         jButton2.setBorderPainted(false);
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -99,6 +112,10 @@ public class PrincipalVista extends javax.swing.JFrame {
         });
 
         jButton5.setIcon( new ImageIcon("img/Carajillo.png")); // NOI18N
+        jButton5.setFont(new java.awt.Font("Tahoma", 0, 1)); // NOI18N
+        jButton5.setText("5");
+        jButton2.setHorizontalTextPosition(SwingConstants.CENTER);
+        jButton2.setVerticalTextPosition(SwingConstants.BOTTOM );
         jButton5.setAlignmentY(0.0F);
         jButton5.setBorderPainted(false);
         jButton5.addActionListener(new java.awt.event.ActionListener() {
@@ -108,6 +125,10 @@ public class PrincipalVista extends javax.swing.JFrame {
         });
 
         jButton3.setIcon( new ImageIcon("img/Cortado.png")); // NOI18N
+        jButton3.setFont(new java.awt.Font("Tahoma", 0, 1)); // NOI18N
+        jButton3.setText("3");
+        jButton2.setHorizontalTextPosition(SwingConstants.CENTER);
+        jButton2.setVerticalTextPosition(SwingConstants.BOTTOM );
         jButton3.setAlignmentY(0.0F);
         jButton3.setBorderPainted(false);
         jButton3.addActionListener(new java.awt.event.ActionListener() {
@@ -117,6 +138,10 @@ public class PrincipalVista extends javax.swing.JFrame {
         });
 
         jButton6.setIcon( new ImageIcon("img/CafeConLeche.png")); // NOI18N
+        jButton6.setFont(new java.awt.Font("Tahoma", 0, 1)); // NOI18N
+        jButton6.setText("6");
+        jButton2.setHorizontalTextPosition(SwingConstants.CENTER);
+        jButton2.setVerticalTextPosition(SwingConstants.BOTTOM );
         jButton6.setAlignmentY(0.0F);
         jButton6.setBorderPainted(false);
         jButton6.addActionListener(new java.awt.event.ActionListener() {
@@ -126,6 +151,10 @@ public class PrincipalVista extends javax.swing.JFrame {
         });
 
         jButton7.setIcon( new ImageIcon("img/Capuchino.png")); // NOI18N
+        jButton7.setFont(new java.awt.Font("Tahoma", 0, 1)); // NOI18N
+        jButton7.setText("7");
+        jButton2.setHorizontalTextPosition(SwingConstants.CENTER);
+        jButton2.setVerticalTextPosition(SwingConstants.BOTTOM );
         jButton7.setAlignmentY(0.0F);
         jButton7.setBorderPainted(false);
         jButton7.addActionListener(new java.awt.event.ActionListener() {
@@ -135,6 +164,10 @@ public class PrincipalVista extends javax.swing.JFrame {
         });
 
         jButton8.setIcon( new ImageIcon("img/Mocca.png")); // NOI18N
+        jButton8.setFont(new java.awt.Font("Tahoma", 0, 1)); // NOI18N
+        jButton8.setText("8");
+        jButton2.setHorizontalTextPosition(SwingConstants.CENTER);
+        jButton2.setVerticalTextPosition(SwingConstants.BOTTOM );
         jButton8.setAlignmentY(0.0F);
         jButton8.setBorderPainted(false);
         jButton8.addActionListener(new java.awt.event.ActionListener() {
@@ -144,6 +177,10 @@ public class PrincipalVista extends javax.swing.JFrame {
         });
 
         jButton9.setIcon( new ImageIcon("img/Irlandes.png")); // NOI18N
+        jButton9.setFont(new java.awt.Font("Tahoma", 0, 1)); // NOI18N
+        jButton9.setText("9");
+        jButton2.setHorizontalTextPosition(SwingConstants.CENTER);
+        jButton2.setVerticalTextPosition(SwingConstants.BOTTOM );
         jButton9.setAlignmentY(0.0F);
         jButton9.setBorderPainted(false);
         jButton9.addActionListener(new java.awt.event.ActionListener() {
@@ -153,6 +190,10 @@ public class PrincipalVista extends javax.swing.JFrame {
         });
 
         jButton10.setIcon( new ImageIcon("img/Vienes.png")); // NOI18N
+        jButton10.setFont(new java.awt.Font("Tahoma", 0, 1)); // NOI18N
+        jButton10.setText("10");
+        jButton2.setHorizontalTextPosition(SwingConstants.CENTER);
+        jButton2.setVerticalTextPosition(SwingConstants.BOTTOM );
         jButton10.setAlignmentY(0.0F);
         jButton10.setBorderPainted(false);
         jButton10.addActionListener(new java.awt.event.ActionListener() {
@@ -162,6 +203,10 @@ public class PrincipalVista extends javax.swing.JFrame {
         });
 
         jButton11.setIcon( new ImageIcon("img/Frappe.png")); // NOI18N
+        jButton11.setFont(new java.awt.Font("Tahoma", 0, 1)); // NOI18N
+        jButton11.setText("11");
+        jButton2.setHorizontalTextPosition(SwingConstants.CENTER);
+        jButton2.setVerticalTextPosition(SwingConstants.BOTTOM );
         jButton11.setAlignmentY(0.0F);
         jButton11.setBorderPainted(false);
         jButton11.addActionListener(new java.awt.event.ActionListener() {
@@ -171,6 +216,10 @@ public class PrincipalVista extends javax.swing.JFrame {
         });
 
         jButton13.setIcon( new ImageIcon("img/Bombon.png")); // NOI18N
+        jButton13.setFont(new java.awt.Font("Tahoma", 0, 1)); // NOI18N
+        jButton13.setText("13");
+        jButton2.setHorizontalTextPosition(SwingConstants.CENTER);
+        jButton2.setVerticalTextPosition(SwingConstants.BOTTOM );
         jButton13.setAlignmentY(0.0F);
         jButton13.setBorderPainted(false);
         jButton13.addActionListener(new java.awt.event.ActionListener() {
@@ -180,6 +229,10 @@ public class PrincipalVista extends javax.swing.JFrame {
         });
 
         jButton12.setIcon( new ImageIcon("img/Azteca.png")); // NOI18N
+        jButton12.setFont(new java.awt.Font("Tahoma", 0, 1)); // NOI18N
+        jButton12.setText("12");
+        jButton2.setHorizontalTextPosition(SwingConstants.CENTER);
+        jButton2.setVerticalTextPosition(SwingConstants.BOTTOM );
         jButton12.setAlignmentY(0.0F);
         jButton12.setBorderPainted(false);
         jButton12.addActionListener(new java.awt.event.ActionListener() {
@@ -424,22 +477,22 @@ public class PrincipalVista extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JTextArea CajonDescripcion;
-    private javax.swing.JTextArea CajonPrecio;
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton10;
-    private javax.swing.JButton jButton11;
-    private javax.swing.JButton jButton12;
-    private javax.swing.JButton jButton13;
-    private javax.swing.JButton jButton14;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
-    private javax.swing.JButton jButton7;
-    private javax.swing.JButton jButton8;
-    private javax.swing.JButton jButton9;
+    public javax.swing.JTextArea CajonDescripcion;
+    public javax.swing.JTextArea CajonPrecio;
+    public javax.swing.JButton jButton1;
+    public javax.swing.JButton jButton10;
+    public javax.swing.JButton jButton11;
+    public javax.swing.JButton jButton12;
+    public javax.swing.JButton jButton13;
+    public javax.swing.JButton jButton14;
+    public javax.swing.JButton jButton2;
+    public javax.swing.JButton jButton3;
+    public javax.swing.JButton jButton4;
+    public javax.swing.JButton jButton5;
+    public javax.swing.JButton jButton6;
+    public javax.swing.JButton jButton7;
+    public javax.swing.JButton jButton8;
+    public javax.swing.JButton jButton9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JScrollPane jScrollPane1;

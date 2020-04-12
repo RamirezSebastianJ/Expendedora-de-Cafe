@@ -20,7 +20,7 @@ public class Capuchino extends DecoradorCafe{
 
     @Override
     public String getDescripcion() {
-        return  base.getDescripcion() + "Doble con Leche Texturizada con algo de cacao [200ml]";
+        return  base.getDescripcion() + "Doble con Leche Texturizada\n con algo de cacao [200ml]";
     }
 
     @Override

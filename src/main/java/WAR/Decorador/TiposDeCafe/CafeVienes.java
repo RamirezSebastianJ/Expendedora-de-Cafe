@@ -21,7 +21,7 @@ public class CafeVienes extends DecoradorCafe{
 
     @Override
     public String getDescripcion() {
-        return "Shot de " + base.getDescripcion() + "con crema [200ml]";
+        return "Shot de " + base.getDescripcion() + "\ncon crema [200ml]";
     }
 
     @Override

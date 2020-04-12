@@ -9,7 +9,7 @@ public class Expreso implements Cafe{
 
     @Override
     public String getDescripcion() {
-        return "Café tipo expreso";
+        return "Cafe tipo expreso";
     }
 
     @Override

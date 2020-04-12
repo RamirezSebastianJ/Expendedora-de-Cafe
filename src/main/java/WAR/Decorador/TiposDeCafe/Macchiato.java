@@ -21,7 +21,7 @@ public class Macchiato extends DecoradorCafe{
 
     @Override
     public String getDescripcion() {
-        return "Doble Shot de " + base.getDescripcion() + " con leche texturizada [100ml]";
+        return "Doble Shot de " + base.getDescripcion() + " \ncon leche texturizada [100ml]";
     }
 
     @Override

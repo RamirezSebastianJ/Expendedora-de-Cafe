@@ -21,7 +21,7 @@ public class Carajillo extends DecoradorCafe{
 
     @Override
     public String getDescripcion() {
-        return "Shot de " + base.getDescripcion() + "con Brandy, Orujo o Whisky[200ml]";
+        return "Shot de " + base.getDescripcion() + "\ncon Brandy, Orujo o Whisky[200ml]";
     }
 
     @Override

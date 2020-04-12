@@ -21,7 +21,7 @@ public class CafeConLeche extends DecoradorCafe{
 
     @Override
     public String getDescripcion() {
-        return "Shot de " + base.getDescripcion() + "con leche[230ml]";
+        return "Shot de " + base.getDescripcion() + "\ncon leche[230ml]";
     }
 
     @Override

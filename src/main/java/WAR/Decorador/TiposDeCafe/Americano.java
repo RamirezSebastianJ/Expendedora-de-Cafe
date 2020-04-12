@@ -21,7 +21,7 @@ public class Americano extends DecoradorCafe{
 
     @Override
     public String getDescripcion() {
-        return "Shot de " + base.getDescripcion() + "Doble con Agua Filtrada [200ml]";
+        return "Shot de " + base.getDescripcion() + "Doble \ncon Agua Filtrada [200ml]";
     }
 
     @Override

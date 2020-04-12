@@ -20,7 +20,7 @@ public class Ristretto extends DecoradorCafe{
 
     @Override
     public String getDescripcion() {
-        return "Extracción corta de un doble Shot de " + base.getDescripcion() + " [300ml]";
+        return "Extraccion corta de \nun doble Shot de " + base.getDescripcion() + " [300ml]";
     }
 
     @Override

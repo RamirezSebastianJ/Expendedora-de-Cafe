@@ -21,7 +21,7 @@ public class CafeIrlandes extends DecoradorCafe{
 
     @Override
     public String getDescripcion() {
-        return "Shot doble de " + base.getDescripcion() + "con Whisky y una cpa de Crema [300ml]";
+        return "Shot doble de " + base.getDescripcion() + "\ncon Whisky y una cpa de Crema [300ml]";
     }
 
     @Override

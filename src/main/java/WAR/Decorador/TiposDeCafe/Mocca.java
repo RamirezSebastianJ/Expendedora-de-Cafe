@@ -20,7 +20,7 @@ public class Mocca extends DecoradorCafe{
 
     @Override
     public String getDescripcion() {
-        return "Doble Shot de " + base.getDescripcion() + "leche texturizada y chocolate peruano orgánico 70% cacao [300ml]";
+        return "Doble Shot de " + base.getDescripcion() + "\nleche texturizada y chocolate peruano\n organico 70% cacao [300ml]";
     }
 
     @Override

@@ -20,7 +20,7 @@ public class CafeBombon extends DecoradorCafe{
 
     @Override
     public String getDescripcion() {
-        return "Shot de " + base.getPrecio() + "endulzado con leche condensada.";
+        return "Shot de " + base.getPrecio() + "endulzado\n con leche condensada.";
     }
 
     @Override

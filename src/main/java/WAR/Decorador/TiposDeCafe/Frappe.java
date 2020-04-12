@@ -21,7 +21,7 @@ public class Frappe extends DecoradorCafe{
 
     @Override
     public String getDescripcion() {
-        return "Cafe instantaneo molido con hielo y crema de leche  [200ml]";
+        return "Cafe instantaneo molido\n con hielo y crema de leche  [200ml]";
     }
 
     @Override

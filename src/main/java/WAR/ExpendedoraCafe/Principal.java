@@ -1,6 +1,10 @@
 
 package WAR.ExpendedoraCafe;
 
+import WAR.Controlador.PrincipalControlador;
+import WAR.Logica.PrincipalLogica;
+import WAR.Vista.PrincipalVista;
+
 /**
  *
  * @author Juan Sebastian Ramirez Arias
@@ -9,11 +13,13 @@ package WAR.ExpendedoraCafe;
 
 public class Principal  {
 
-    /**
-     * @param args the command line arguments
-     */
+
     public static void main(String[] args) {
-        // TODO code application logic here
+        PrincipalLogica model = new PrincipalLogica();
+        PrincipalVista ventanaPricipal = new PrincipalVista();
+        PrincipalControlador inspector = new PrincipalControlador(model, ventanaPricipal);
+        
+        inspector.iniciar();
+        ventanaPricipal.setVisible(true);
     }
-    
 }
