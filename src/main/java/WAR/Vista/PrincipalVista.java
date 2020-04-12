@@ -313,10 +313,14 @@ public class PrincipalVista extends javax.swing.JFrame {
         jPanel2.setOpaque(false);
 
         CajonDescripcion.setColumns(20);
+        CajonDescripcion.setFont(new java.awt.Font("Monospaced", 1, 14)); // NOI18N
         CajonDescripcion.setRows(5);
+        CajonDescripcion.setDisabledTextColor(new java.awt.Color(0, 0, 0));
+        CajonDescripcion.setEnabled(false);
         jScrollPane1.setViewportView(CajonDescripcion);
 
         CajonPrecio.setColumns(20);
+        CajonPrecio.setFont(new java.awt.Font("Monospaced", 1, 18)); // NOI18N
         CajonPrecio.setRows(5);
         jScrollPane2.setViewportView(CajonPrecio);
 
@@ -376,7 +380,7 @@ public class PrincipalVista extends javax.swing.JFrame {
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap(45, Short.MAX_VALUE)
+                .addContainerGap(24, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)

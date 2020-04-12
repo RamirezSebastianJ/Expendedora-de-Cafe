@@ -82,7 +82,7 @@ set CMD_LINE_ARGS=%*
 set CLASSPATH=%APP_HOME%\lib\ExpendedoraCafe-0.1.jar
 
 @rem Execute ExpendedoraCafe
-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %EXPENDEDORA_CAFE_OPTS%  -classpath "%CLASSPATH%" WAR.ExpendedoraCafe. %CMD_LINE_ARGS%
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %EXPENDEDORA_CAFE_OPTS%  -classpath "%CLASSPATH%" WAR.ExpendedoraCafe.ExpendedoraCafe %CMD_LINE_ARGS%
 
 :end
 @rem End local scope for the variables with windows NT shell

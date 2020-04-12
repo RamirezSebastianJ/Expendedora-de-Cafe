@@ -6,7 +6,8 @@ apply plugin: 'application'
 description = 'Expendedora de Café Java, con patron de diseño Decorador Y Modo Grafico, modelo Vista Controlador (MVC)'
     group = 'WAR'
 
-mainClassName = 'WAR.ExpendedoraCafe.'
+mainClassName = 'WAR.ExpendedoraCafe.ExpendedoraCafe'
+
 
 repositories {
     jcenter()
